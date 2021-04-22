@@ -47,6 +47,7 @@ buildscript {
     repositories {
         mavenLocal()
         maven { url 'https://maven.pkg.jetbrains.space/kotlin/p/dokka/dev' }
+        maven { url "https://maven.pkg.jetbrains.space/kotlin/p/kotlin/dev" }
         mavenCentral()
         gradlePluginPortal()
         // For Dokka that depends on kotlinx-html
@@ -129,6 +130,7 @@ allprojects {
     repositories {
         mavenCentral()
         maven { url 'https://maven.pkg.jetbrains.space/kotlin/p/dokka/dev' }
+        maven { url "https://maven.pkg.jetbrains.space/kotlin/p/kotlin/dev" }
         // kotlin-dev with space redirector
         maven { url "https://cache-redirector.jetbrains.com/maven.pkg.jetbrains.space/kotlin/p/kotlin/dev" }
         // For Dokka that depends on kotlinx-html
